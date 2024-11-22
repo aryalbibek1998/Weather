@@ -40,7 +40,7 @@ public class Temp {
             }
         }
 
-        // Calculate averages
+        // Calculate averages:
         for (int i = 0; i < highTemps.size(); i++) {
             double average = (highTemps.get(i) + lowTemps.get(i)) / 2.0;
             averages.add(average);
